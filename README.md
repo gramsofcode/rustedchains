@@ -41,13 +41,13 @@ The mining process uses proof-of-work:
 ### Validation
 
 The blockchain validates:
-- ✓ Sequential block indices
-- ✓ Valid proof-of-work (hash meets difficulty)
-- ✓ Chronological timestamps
-- ✓ Correct previous block hash references
-- ✓ Valid transaction inputs (must be unspent)
-- ✓ Transaction value conservation (inputs ≥ outputs)
-- ✓ Proper coinbase transaction format
+- Sequential block indices
+- Valid proof-of-work (hash meets difficulty)
+- Chronological timestamps
+- Correct previous block hash references
+- Valid transaction inputs (must be unspent)
+- Transaction value conservation (inputs ≥ outputs)
+- Proper coinbase transaction format
 
 ## Installation
 
@@ -78,8 +78,6 @@ This will:
 ```
 Mined Genesis Block: Block[0]: 1358fd8db75267e71adf6d079123b2dfd95c5b4aafbccd4ca4ace333d8f30000 at: 1768330268038 with: 1 nonce: 59515
 Mined Block: Block[1]: bf4809c3bbce9f1835c774e9df230ce40d52cb4ade992ef0d45a65eb297d0000 at: 1768330268184 with: 2 nonce: 252358
-```
-```
 ```
 
 ## Project Structure
