@@ -1,0 +1,17 @@
+[package]
+name = "rustedchains"
+version = "0.1.0"
+authors = ["Shlok"]
+edition = "2021"
+
+[lib]
+name = "rustedchains"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rustedchains"
+path = "src/main.rs"
+
+[dependencies]
+hex = "0.4.3"
+crypto-hash = "0.3.4"
